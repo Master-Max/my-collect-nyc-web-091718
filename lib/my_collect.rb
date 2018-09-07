@@ -1,6 +1,6 @@
 def my_collect(arr)
   if block_given?
-    retArr = Array.new
+    retArr = []
     i = 0
     while i < arr.length
       retArr << yeild(arr[i])
