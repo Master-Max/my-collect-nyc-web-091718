@@ -7,5 +7,6 @@ def my_collect(arr)
       i += 1
     end
     retArr
+  end
 end
 
