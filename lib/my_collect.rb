@@ -3,8 +3,7 @@ def my_collect(arr)
     retArr = Array.new
     i = 0
     while i < arr.length
-      retArr = yeild arr[i]
-      #retArr.push(arr[i])
+      retArr << yeild(arr[i])
       i += 1
     end
     retArr
