@@ -3,6 +3,9 @@ def my_collect(arr)
     retArr = Array.new
     i = 0
     while i < arr.length
-      retArr.push()
+      retArr.push(yeild arr[i])
+      i += 1
+    end
+    retArr
 end
 
