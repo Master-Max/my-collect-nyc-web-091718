@@ -1,4 +1,4 @@
-def my_collect(arr)
+def my_collect()
   i = 0
   retArr = []
   while i < arr.length
