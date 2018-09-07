@@ -1,12 +1,8 @@
 def my_collect(arr)
-  i = 0
-  new_Arr = Array.new
-  while i < arr.length
-    #yeild arr[i]
-    new_Arr.push(yeild arr[i])
-    i += 1
-  end
-  
-  new_Arr
+  if block_given?
+    retArr = Array.new
+    i = 0
+    while i < arr.length
+      retArr.
 end
 
